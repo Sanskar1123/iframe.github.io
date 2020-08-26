@@ -103,6 +103,7 @@ p {
 	margin: 1200px;
 	opacity: 0;
 	transition: 1.4s;
+	height: 330px;
 }
 .card_2 .image {
 	background-image: url("media/aadya.jpeg");
@@ -111,6 +112,12 @@ p {
 }
 .card_2 h2 {
 	color: #7c4019;
+}
+.card_2 p {
+	position: absolute;
+	float: right;
+	margin-left: 200px;
+	text-align: center;
 }
 .card_2 .next {
 	color: #7c4019;
