@@ -772,7 +772,7 @@ p {
 .card_19 h2,
 .next,
 .prev {
-	color: #262626;
+	color: #5da2d5;
 }
 
 .card_19 p {
@@ -810,7 +810,7 @@ p {
 	background-position: center;
 }
 .card_20 h2 {
-	color: #5da2d5;
+	color: #262626;
 	position: absolute;
 	left: 62%;
 }
@@ -824,10 +824,10 @@ p {
 	text-align: center;
 }
 .card_20 .next {
-	color: #5da2d5;
+	color: #262626;
 }
 .card_20 .prev {
-	color: #5da2d5;
+	color: #262626;
 }
 .card_20.active {
 	margin: 0;
