@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #container {
 	position: relative;
@@ -756,57 +756,19 @@ p {
 	height: 300px;
 }
 .card_19 .image {
-	background-image: url("media/rahul.jpeg");
-	width: 220px;
-	margin-bottom: 0;
-	background-size: 350px 350px;
-	background-position: center;
-}
-.card_19 h2 {
-	color: #5da2d5;
-}
-.card_18 p {
-	position: absolute;
-	float: right;
-	margin-left: 240px;
-	margin-right: 40px;
-	top: 17%;
-	font-size: 17px;
-	text-align: center;
-}
-.card_19 .next {
-	color: #5da2d5;
-}
-.card_19 .prev {
-	color: #5da2d5;
-}
-.card_19.active {
-	margin: 0;
-	transform: translateX(-48%) translateY(0%) scale(1) rotate(2deg);
-}
-
-/* CARD 20 */
-.card_20 {
-	background: #f6f6f6;
-	transform: translateX(-50%) scale(2);
-	margin: -1200px 1000px;
-	transition: 1.4s;
-	height: 300px;
-}
-.card_20 .image {
 	background-image: url("media/aman.jpeg");
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
 	background-position: center;
 }
-.card_20 h2,
+.card_19 h2,
 .next,
 .prev {
 	color: #262626;
 }
 
-.card_20 p {
+.card_19 p {
 	position: absolute;
 	float: right;
 	margin-left: 300px;
@@ -816,7 +778,51 @@ p {
 	letter-spacing: 5px;
 	text-align: center;
 }
-.card_20.active {
+.card_19.active {
 	margin: 0;
 	transform: translateX(-48%) translateY(0%) scale(1) rotate(0deg);
+}
+
+/* CARD 20 */
+.card_20 {
+	background: #f6f6f6;
+	transform: translateX(-50%) scale(2);
+	margin: -1200px 1000px;
+	transition: 1.4s;
+	height: 500px;
+	width: 1200px;
+}
+.card_20 .image {
+	background-image: url("media/rahul.jpeg");
+	width: 300px;
+	height: 250px;
+	margin-bottom: 0;
+	position: absolute;
+	top: 22%;
+	background-size: 350px 350px;
+	background-position: center;
+}
+.card_20 h2 {
+	color: #5da2d5;
+	position: absolute;
+	left: 62%;
+}
+.card_20 p {
+	position: absolute;
+	float: right;
+	margin-left: 340px;
+	margin-right: 40px;
+	top: 17%;
+	font-size: 17px;
+	text-align: center;
+}
+.card_20 .next {
+	color: #5da2d5;
+}
+.card_20 .prev {
+	color: #5da2d5;
+}
+.card_20.active {
+	margin: 0;
+	transform: translateX(-48%) translateY(0%) scale(1) rotate(2deg);
 }
