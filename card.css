@@ -711,7 +711,7 @@ p {
 	transform: translateX(-50%) scale(2);
 	margin: -1200px 1000px;
 	transition: 1.4s;
-	height: 550px;
+	height: 500px;
 }
 .card_18 .image {
 	background-image: url("media/namrata.jpeg");
@@ -794,7 +794,7 @@ p {
 	height: 300px;
 }
 .card_20 .image {
-	background-image: url("media/arpit.jpeg");
+	background-image: url("media/aman.jpeg");
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
@@ -809,9 +809,9 @@ p {
 .card_20 p {
 	position: absolute;
 	float: right;
-	margin-left: 340px;
+	margin-left: 300px;
 	margin-right: 40px;
-	top: 37%;
+	top: 24%;
 	font-size: 30px;
 	letter-spacing: 5px;
 	text-align: center;
