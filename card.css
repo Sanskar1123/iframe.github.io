@@ -753,9 +753,10 @@ p {
 	transform: translateX(-50%) scale(2);
 	margin: -1200px 1000px;
 	transition: 1.4s;
+	height: 300px;
 }
 .card_19 .image {
-	background-image: url("https://png.pngtree.com/element_origin_min_pic/16/07/09/1457809f52cac1b.jpg");
+	background-image: url("media/rahul.jpeg");
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
@@ -763,6 +764,15 @@ p {
 }
 .card_19 h2 {
 	color: #5da2d5;
+}
+.card_18 p {
+	position: absolute;
+	float: right;
+	margin-left: 240px;
+	margin-right: 40px;
+	top: 17%;
+	font-size: 17px;
+	text-align: center;
 }
 .card_19 .next {
 	color: #5da2d5;
