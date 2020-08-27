@@ -76,6 +76,7 @@ p {
 	height: 200px;
 	width: 300px;
 	position: absolute;
+	box-shadow: 10px 10px 10px 2px grey;
 	top: 50px;
 	padding-bottom: 70px;
 }
@@ -109,6 +110,7 @@ p {
 	background-image: url("media/aadya.jpeg");
 	width: 200px;
 	height: 175px;
+	box-shadow: 10px 10px 8px 2px grey;
 }
 .card_2 h2 {
 	color: #7c4019;
@@ -183,6 +185,7 @@ p {
 	margin-bottom: 0;
 	background-size: contain;
 	background-size: 350px 350px;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-position: center;
 }
 .card_4 p {
@@ -221,6 +224,7 @@ p {
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-size: cover;
 	position: absolute;
 	top: 50px;
@@ -262,6 +266,7 @@ p {
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
+	box-shadow: 10px 10px 10px 2px grey;
 	position: absolute;
 	top: 68px;
 	background-position: center;
@@ -302,6 +307,7 @@ p {
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-position: center;
 }
 .card_7 h2 {
@@ -339,6 +345,7 @@ p {
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-position: center;
 }
 .card_8 h2 {
@@ -380,6 +387,7 @@ p {
 	width: 220px;
 	margin-bottom: 0;
 	background-size: 350px 350px;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-position: center;
 }
 .card_9 h2 {
@@ -416,6 +424,7 @@ p {
 .card_10 .image {
 	background-image: url("media/ashish.jpeg");
 	width: 220px;
+	box-shadow: 10px 10px 10px 2px grey;
 	margin-bottom: 0;
 	background-size: 350px 350px;
 	background-position: center;
@@ -455,6 +464,7 @@ p {
 	background-image: url("media/alpha.jpeg");
 	width: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-size: 350px 350px;
 	background-position: center;
 }
@@ -491,6 +501,7 @@ p {
 	background-image: url("media/mehak.jpeg");
 	width: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-size: 350px 350px;
 	background-position: center;
 }
@@ -527,6 +538,7 @@ p {
 	background-image: url("media/shruti.jpeg");
 	width: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-size: 350px 350px;
 	background-position: center;
 }
@@ -563,6 +575,7 @@ p {
 .card_14 .image {
 	background-image: url("media/vidhi.jpeg");
 	width: 220px;
+	box-shadow: 10px 10px 10px 2px grey;
 	margin-bottom: 0;
 	background-size: 350px 350px;
 	background-position: center;
@@ -601,6 +614,7 @@ p {
 	background-image: url("media/drishti.jpeg");
 	width: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 2px grey;
 	position: absolute;
 	top: 120px;
 	height: 200px;
@@ -644,6 +658,7 @@ p {
 	background-image: url("media/suri.jpeg");
 	width: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-size: 350px 350px;
 	position: absolute;
 	top: 68px;
@@ -685,6 +700,7 @@ p {
 .card_17 .image {
 	background-image: url("media/kavya.jpeg");
 	width: 220px;
+	box-shadow: 10px 10px 10px 2px grey;
 	margin-bottom: 0;
 	background-size: 350px 350px;
 	background-position: center;
@@ -718,12 +734,13 @@ p {
 	transform: translateX(-50%) scale(2);
 	margin: -1200px 1000px;
 	transition: 1.4s;
-	height: 500px;
+	height: 530px;
 }
 .card_18 .image {
 	background-image: url("media/namrata.jpeg");
 	width: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 2px grey;
 	position: absolute;
 	top: 120px;
 	background-size: 350px 350px;
@@ -766,6 +783,7 @@ p {
 	background-image: url("media/aman.jpeg");
 	width: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 2px grey;
 	background-size: 350px 350px;
 	background-position: center;
 }
@@ -799,9 +817,10 @@ p {
 	height: 340px;
 }
 .card_20 .image {
-	background-image: url("media/rahul.jpeg");
+	background-image: url("media/sood.jpeg");
 	width: 280px;
 	height: 220px;
+	box-shadow: 10px 10px 10px 2px grey;
 	margin-bottom: 0;
 	position: absolute;
 	top: 10%;
@@ -833,7 +852,6 @@ p {
 	transform: translateX(-48%) translateY(0%) scale(1) rotate(2deg);
 }
 
-
 /* CARD 21 */
 .card_21 {
 	background: #f6f6f6;
@@ -848,6 +866,7 @@ p {
 	height: 220px;
 	margin-bottom: 0;
 	position: absolute;
+	box-shadow: 10px 10px 10px 2px grey;
 	top: 10%;
 	background-size: 350px 350px;
 	background-position: center;
@@ -879,7 +898,6 @@ p {
 	transform: translateX(-48%) translateY(0%) scale(1) rotate(-7deg);
 }
 
-
 /* CARD 22 */
 .card_22 {
 	background: #f6f6f6;
@@ -893,6 +911,7 @@ p {
 	width: 280px;
 	height: 220px;
 	margin-bottom: 0;
+	box-shadow: 10px 10px 10px 1px grey;
 	position: absolute;
 	top: 10%;
 	background-size: 350px 350px;
@@ -924,7 +943,6 @@ p {
 	transform: translateX(-48%) translateY(0%) scale(1) rotate(5deg);
 }
 
-
 /* CARD 23 */
 .card_23 {
 	background: #f6f6f6;
@@ -940,6 +958,7 @@ p {
 	height: 240px;
 	margin-bottom: 0;
 	position: absolute;
+	box-shadow: 10px 10px 20px 8px grey;
 	top: 20%;
 	background-size: 350px 350px;
 	background-position: center;
