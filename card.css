@@ -738,11 +738,12 @@ p {
 }
 .card_18 .image {
 	background-image: url("media/namrata.jpeg");
+	height: 350px;
 	width: 220px;
 	margin-bottom: 0;
 	box-shadow: 10px 10px 10px 2px grey;
 	position: absolute;
-	top: 120px;
+	top: 60px;
 	background-size: 350px 350px;
 	background-position: center;
 }
@@ -907,13 +908,14 @@ p {
 	height: 330px;
 }
 .card_22 .image {
-	background-image: url("media/Sanskar.jpg");
+	background-image: url("media/Sanskar1.jpg");
 	width: 280px;
 	height: 220px;
 	margin-bottom: 0;
 	box-shadow: 10px 10px 10px 1px grey;
 	position: absolute;
 	top: 10%;
+	left: 4%;
 	background-size: 350px 350px;
 	background-position: center;
 }
