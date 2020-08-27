@@ -276,24 +276,56 @@
             <!-- Card 20 -->
             <div class="card card_20" id="card20">
                 <div class="image"></div>
-                <h2>Rahul & Shambhavi</h2><br>
-                <p>Happy birthday Aakriti.
-                First of all is like to let you know that YOU ARE A GEM 💎 (but mujhe aisa nhi lagta)😂 We met for the first time on
-                your birthday itself and it has been a crazy year. Gradually we became so good friends that now I can't even think of
-                SNU without you. We used to chat and laugh during CSD labs. Our bond strengthened because of SDC(aaj taana nhi
-                maarunga😂). I miss all those SDC meetings in which we used to discuss crazy ideas, watch movies, play teen patti (and
-                thoda sa kaam bhi). I remember those late talks with you after which I had to sleep with my lights on 🙂. We pitched
-                crazy startup ideas just for getting a chocolate 🍫😂 and I really miss working on dustbin which won 2 entrepreneurship
-                competitions. It'd have never been possible without a teammate like you.♥️ Your bhaiya, dad and commerce wali friend
-                were always to the rescue whenever we needed some advice on anything. 😂
-                I'm still surprised tujhe kuch nhi hua even after drinking plastic. Haan itne asaani se peecha thodi chodegi ab tu.
-                Jokes apart, have an amazingg birthday ❤️💯.
-                Happy 19!🥳
-                -rahul<br>
+                <h2>Shambhavi</h2><br>
+                <p>
             Happy Birthday to the group's biggest Nakhrebaaz😂😂 aap ko hum humesha taunt maarte rahenge aur aapse argue krte
             rahenge. Aapse ladenge bhi aur baakiyo se Aapke liye bhi ladhenge....lol(like so cheesy) anyways enjoy your day , Dumbo
             from Punjabi Baagh. Have fun sweetie. Wish you all the happiness and success. ❤️❤️❤️May you get to meet V.
-            <br>-shambhavi</p>
+                </p>
+                <div class="prev" onclick="prev()">PREV</div>
+                <div class="next" onclick="next()">NEXT</div>
+            </div>
+            
+            <!-- Card 21 -->
+            <div class="card card_21" id="card21">
+                <div class="image"></div>
+                <h2>Arpit</h2><br>
+                <p>
+            HBD
+                </p>
+                <div class="prev" onclick="prev()">PREV</div>
+                <div class="next" onclick="next()">NEXT</div>
+            </div>
+
+            <!-- Card 22 -->
+            <div class="card card_22" id="card22">
+                <div class="image"></div>
+                <h2>Sanskar</h2><br>
+                <p>
+            Chal aaj to touch-up banta hai<br> Happy B'day, topper!!!
+                </p>
+                <div class="prev" onclick="prev()">PREV</div>
+                <div class="next" onclick="next()">NEXT</div>
+            </div>
+
+            <!-- Card 23 -->
+            <div class="card card_23" id="card23">
+                <div class="image"></div>
+                <h2>Rahul</h2><br>
+                <p>
+                    Happy birthday Aakriti.
+                    First of all is like to let you know that YOU ARE A GEM 💎 (but mujhe aisa nhi lagta)😂 We met for the first time on
+                    your birthday itself and it has been a crazy year. Gradually we became so good friends that now I can't even think of
+                    SNU without you. We used to chat and laugh during CSD labs. Our bond strengthened because of SDC(aaj taana nhi
+                    maarunga😂). I miss all those SDC meetings in which we used to discuss crazy ideas, watch movies, play teen patti (and
+                    thoda sa kaam bhi). I remember those late talks with you after which I had to sleep with my lights on 🙂. We pitched
+                    crazy startup ideas just for getting a chocolate 🍫😂 and I really miss working on dustbin which won 2 entrepreneurship
+                    competitions. It'd have never been possible without a teammate like you.♥️ Your bhaiya, dad and commerce wali friend
+                    were always to the rescue whenever we needed some advice on anything. 😂
+                    I'm still surprised tujhe kuch nhi hua even after drinking plastic. Haan itne asaani se peecha thodi chodegi ab tu.
+                    <br>Jokes apart, have an amazingg birthday ❤️💯.
+                    <br>Happy 19!🥳
+                </p>
                 <div class="prev" onclick="prev()">PREV</div>
                 <div class="next" onclick="next()">NEXT</div>
             </div>
@@ -327,13 +359,16 @@
             card18 = document.getElementById("card18"),
             card19 = document.getElementById("card19"),
             card20 = document.getElementById("card20"),
+            card21 = document.getElementById("card21"),
+            card22 = document.getElementById("card22"),
+            card23 = document.getElementById("card23"),
             card_length = document.querySelectorAll(".card");
 
         // container
         let container = document.getElementById("container");
 
         // Card List
-        let card_list = [card1, card2, card3, card4, card5, card6, card7, card8, card9, card10, card11, card12, card13, card14, card15, card16, card17, card18, card19, card20];
+        let card_list = [card1, card2, card3, card4, card5, card6, card7, card8, card9, card10, card11, card12, card13, card14, card15, card16, card17, card18, card19, card20, card21, card22, card23];
 
         // next function
         let counter = 1;
@@ -421,6 +456,15 @@
                 container.style.background = "#5da2d5";
             }
             else if (x == 19) {
+                container.style.background = "#262626";
+            }
+            else if (x == 20) {
+                container.style.background = "#7c4019";
+            }
+            else if (x == 21) {
+                container.style.background = "#a16e83";
+            }
+            else if (x == 22) {
                 container.style.background = "#262626";
             }
         }

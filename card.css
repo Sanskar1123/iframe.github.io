@@ -796,16 +796,15 @@ p {
 	transform: translateX(-50%) scale(2);
 	margin: -1200px 1000px;
 	transition: 1.4s;
-	height: 500px;
-	width: 1200px;
+	height: 340px;
 }
 .card_20 .image {
 	background-image: url("media/rahul.jpeg");
-	width: 300px;
-	height: 250px;
+	width: 280px;
+	height: 220px;
 	margin-bottom: 0;
 	position: absolute;
-	top: 22%;
+	top: 10%;
 	background-size: 350px 350px;
 	background-position: center;
 }
@@ -832,4 +831,140 @@ p {
 .card_20.active {
 	margin: 0;
 	transform: translateX(-48%) translateY(0%) scale(1) rotate(2deg);
+}
+
+
+/* CARD 21 */
+.card_21 {
+	background: #f6f6f6;
+	transform: translateX(-50%) scale(2);
+	margin: -1200px 1000px;
+	transition: 1.4s;
+	height: 320px;
+}
+.card_21 .image {
+	background-image: url("media/arpit.jpeg");
+	width: 280px;
+	height: 220px;
+	margin-bottom: 0;
+	position: absolute;
+	top: 10%;
+	background-size: 350px 350px;
+	background-position: center;
+}
+.card_21 h2 {
+	color: #7c4019;
+	position: absolute;
+	left: 62%;
+}
+.card_21 p {
+	position: absolute;
+	float: right;
+	margin-left: 420px;
+	margin-right: 40px;
+	top: 30%;
+	letter-spacing: 4px;
+	font-size: 50px;
+	font-weight: 5px;
+	text-align: center;
+}
+.card_21 .next {
+	color: #7c4019;
+}
+.card_21 .prev {
+	color: #7c4019;
+}
+.card_21.active {
+	margin: 0;
+	transform: translateX(-48%) translateY(0%) scale(1) rotate(-7deg);
+}
+
+
+/* CARD 22 */
+.card_22 {
+	background: #f6f6f6;
+	transform: translateX(-50%) scale(2);
+	margin: -1200px 1000px;
+	transition: 1.4s;
+	height: 330px;
+}
+.card_22 .image {
+	background-image: url("media/Sanskar.jpg");
+	width: 280px;
+	height: 220px;
+	margin-bottom: 0;
+	position: absolute;
+	top: 10%;
+	background-size: 350px 350px;
+	background-position: center;
+}
+.card_22 h2 {
+	color: #a16e83;
+	position: absolute;
+	left: 62%;
+}
+.card_22 p {
+	position: absolute;
+	float: right;
+	margin-left: 340px;
+	margin-right: 40px;
+	top: 28%;
+	font-weight: 5px;
+	font-size: 25px;
+	text-align: center;
+}
+.card_22 .next {
+	color: #a16e83;
+}
+.card_22 .prev {
+	color: #a16e83;
+}
+.card_22.active {
+	margin: 0;
+	transform: translateX(-48%) translateY(0%) scale(1) rotate(5deg);
+}
+
+
+/* CARD 23 */
+.card_23 {
+	background: #f6f6f6;
+	transform: translateX(-50%) scale(2);
+	margin: -1200px 1000px;
+	transition: 1.4s;
+	height: 500px;
+	width: 800px;
+}
+.card_23 .image {
+	background-image: url("media/rahul.jpeg");
+	width: 280px;
+	height: 240px;
+	margin-bottom: 0;
+	position: absolute;
+	top: 20%;
+	background-size: 350px 350px;
+	background-position: center;
+}
+.card_23 h2 {
+	color: #262626;
+	position: absolute;
+	left: 62%;
+}
+.card_23 p {
+	position: absolute;
+	float: right;
+	margin-left: 300px;
+	margin-right: 35px;
+	top: 12%;
+	font-size: 17px;
+	text-align: center;
+}
+.card_23 .next {
+	color: #262626;
+}
+.card_23 .prev {
+	color: #262626;
+}
+.card_23.active {
+	margin: 0;
+	transform: translateX(-48%) translateY(0%) scale(1) rotate(-1deg);
 }
